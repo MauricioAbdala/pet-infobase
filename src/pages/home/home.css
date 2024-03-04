@@ -1,0 +1,121 @@
+.feed-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: var(--rem218);
+}
+
+.feed-post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--rem150);
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.user-post-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: var(--rem200);
+}
+
+.user-post-info-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--rem075);
+    width: 50%;
+    height: var(--rem200);
+}
+
+.user-post-info-box>img {
+    width: var(--rem200);
+    height: var(--rem200);
+    border-radius: 50%;
+}
+
+.user-post-info {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: var(--rem200);
+    gap: var(--rem075);
+}
+
+span::first-letter{
+    text-transform: uppercase;
+}
+
+
+.user-post-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--rem075);
+    height: var(--rem200);
+}
+
+.user-post-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--rem125);
+    width: 100%;
+    max-width: 100%;
+    max-height: 184px;
+}
+
+.user-post-content>p {
+    max-height: 100%;
+    overflow-y: hidden;
+}
+
+.user-post-content>a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.plus-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.delete-post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.delete-post-container>h3 {
+    margin-bottom: var(--rem287);
+}
+
+.delete-post-container>h2 {
+    margin-bottom: var(--rem100);
+}
+
+.delete-post-container>p {
+    margin-bottom: var(--rem287);
+}
+
+.delete-button-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--rem100);
+    height: var(--rem237);
+}

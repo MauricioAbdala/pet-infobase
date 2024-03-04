@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/assets/petInfo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/styles/global.css">
+    <link rel="stylesheet" href="./src/styles/colors.css">
+    <link rel="stylesheet" href="./src/styles/fonts.css">
+    <link rel="stylesheet" href="./src/styles/buttons.css">
+    <link rel="stylesheet" href="./src/styles/inputs.css">
+    <link rel="stylesheet" href="./src/styles/toltip.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
+    <link rel="stylesheet" href="./src/pages/login/login.css">
+    <script defer type="module" src="./src/scripts/login.js"></script>
+    <title>Petinfo - Login</title>
+</head>
+
+<body>
+    <main class="">
+        <div class="bgc-grey-9 main-content">
+            <section class="presentation">
+                <h1 class="grey-1 title-1 title">Petinfo</h1>
+                <h2 class="grey-1 title-1"><span class="brand-1">Amor</span> e <span class="brand-1">carinho</span> por
+                    meio do conhecimento</h2>
+                <p class="grey-3 text-3 login-info">Todas as informações para melhorar a vida do seu pet em um só lugar
+                </p>
+                <div class="img-login">
+                    <div>
+                        <div>
+                            <img src="./src/assets/Rectangle 2.png" alt="bichano">
+                            <img src="./src/assets/Rectangle 3.png" alt="toddy">
+                        </div>
+                        <img src="./src/assets/Rectangle 4.png" alt="mel">
+                    </div>
+                    <img src="./src/assets/Rectangle 5.png" alt="mingau">
+                </div>
+            </section>
+            <section class="login-box">
+                <form class="login-form" id="login_form">
+                    <h2 class="title-5 form-title">Login</h2>
+                    <div class="form-email">
+                        <label class="text-1" for="login-email">Email</label>
+                        <input class="text-6 input-dflt" type="email" id="login-email" name="email"
+                            placeholder="Digite seu email aqui" required>
+                    </div>
+                    <div class="form-password">
+                        <label class="text-1" for="login-password">Senha</label>
+                        <input class="text-6 input-dflt" type="password" id="login-password" name="password"
+                            placeholder="Digite sua senha aqui" required>
+                        <span id="alert" class="alert-1 text-4 error-none">Usuário ou senha incorretos</span>
+                    </div>
+                    <button type="submit" id="login_button"
+                        class="grey-9 text-1 button button-form-1 inative-button">Acessar</button>
+                </form>
+                <div class="sigin-up">
+                    <div class="sigin-up-instructions">
+                        <p class="grey-1 text-2">Ainda não possui conta?</p>
+                        <span class="grey-3 text-4">Clicando no botão abaixo, você pode se cadastrar rapidamente</span>
+                    </div>
+                    <button type="button" id="siginup" class="grey-1 text-1 button button-form-2">Cadastrar</button>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

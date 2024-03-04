@@ -1,0 +1,132 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 var(--rem100);
+    height: var(--rem237);
+    background-color: var(--grey600);
+    border: 1px solid var(--grey600);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+
+.close-modal {
+    position: absolute;
+    right: var(--rem150);
+    top: var(--rem150);
+    flex-direction: column;
+    padding: var(--rem087);
+    width: var(--rem237);
+    height: var(--rem200);
+}
+
+.button-form-1 {
+    width: 100%;
+    background-color: var(--brand100);
+    border: 2px solid var(--brand100);
+}
+
+.button-form-2 {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid var(--inative-brand2);
+}
+
+.button-form-2:hover,
+.button-form-2:focus {
+    color: var(--brand100);
+    background-color: var(--inative-brand3);
+    border: 2px solid var(--brand200);
+}
+
+.back-to-login {
+    padding: 0 var(--rem050);
+    height: var(--rem200);
+    border: 1px solid var(--inative-brand3);
+}
+
+.back-to-login:hover,
+.back-to-login:focus {
+    color: var(--brand100);
+    background-color: var(--inative-brand3);
+    border: 2px solid var(--brand200);
+}
+
+.button-home {
+    width: 9.5rem;
+    background-color: var(--brand100);
+    border: 2px solid var(--brand100);
+}
+
+.button-home:hover {
+    background-color: var(--inative-brand3);
+    color: var(--brand100);
+}
+
+.button-card-delete {
+    padding: 0 var(--rem050);
+    height: var(--rem200);
+    background-color: var(--grey700);
+    border: 1px solid var(--grey700);
+}
+
+.button-card-edit {
+    padding: 0 var(--rem050);
+    height: var(--rem200);
+    background-color: transparent;
+    border: 1px solid var(--grey600);
+}
+
+.button-cancel {
+    padding: var(--rem050) var(--rem125);
+}
+
+.button-create {
+    padding: var(--rem050) var(--rem125);
+    background-color: var(--brand100);
+}
+
+.button-delete-post {
+    padding: var(--rem050) var(--rem125);
+    background-color: var(--alert100);
+}
+
+.button-delete-post:hover {
+    background-color: var(--alert-bgc);
+    border: 2px solid var(--alert100);
+    color: var(--alert100);
+
+}
+
+.button-edit {
+    align-items: flex-start;
+    padding: var(--rem050) var(--rem125);
+    background-color: var(--brand100);
+}
+
+.inative-button {
+    background-color: var(--inative-brand);
+    color: var(--grey600);
+    border: 1px solid var(--brand100);
+    pointer-events: none;
+}
+
+.inative-button:hover {
+    background-color: var(--brand100);
+    color: var(--grey900);
+}
+
+.loading {
+    animation: spinner 1s infinite linear;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

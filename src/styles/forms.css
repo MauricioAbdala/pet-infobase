@@ -1,0 +1,41 @@
+.open-post {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: min-content;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+.title-form {
+    margin-bottom: 48px;
+}
+
+.title-post-box,
+.content-post-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--rem062);
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.buttons-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 100%;
+    height: min-content;
+    gap: var(--rem100);
+    margin-top: 20px;
+}

@@ -1,0 +1,65 @@
+.title-1 {
+    font-weight: var(--f-weight1);
+    font-size: var(--f-size1);
+    line-height: var(--l-height1);
+}
+
+.title-2 {
+    font-weight: var(--f-weight1);
+    font-size: var(--f-size2);
+    line-height: var(--l-height2);
+}
+
+.title-3 {
+    font-weight: var(--f-weight2);
+    font-size: var(--f-size1);
+    line-height: var(--l-height1);
+}
+
+.title-4 {
+    font-weight: var(--f-weight2);
+    font-size: var(--f-size2);
+    line-height: var(--l-height2);
+}
+
+.title-5 {
+    font-weight: var(--f-weight2);
+    font-size: var(--f-size3);
+    line-height: var(--l-height3);
+}
+
+.text-1 {
+    font-weight: var(--f-weight2);
+    font-size: var(--f-size4);
+    line-height: var(--l-height4);
+}
+
+.text-2 {
+    font-weight: var(--f-weight2);
+    font-size: var(--f-size5);
+    line-height: var(--l-height5);
+}
+
+.text-3 {
+    font-weight: var(--f-weight3);
+    font-size: var(--f-size4);
+    line-height: var(--l-height4);
+}
+
+.text-4 {
+    font-weight: var(--f-weight3);
+    font-size: var(--f-size5);
+    line-height: var(--l-height5);
+}
+
+.text-5 {
+    font-weight: var(--f-weight0);
+    font-size: var(--f-size5);
+    line-height: var(--l-height5);
+}
+
+.text-6 {
+    font-weight: var(--f-weight3);
+    font-size: var(--f-size4);
+    line-height: var(--l-height5);
+}

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+:root {
+  --brand100: #364FC7;
+  --brand200: #3B56D9;
+  --inative-brand: rgba(54, 78, 199, 0.8);
+  --inative-brand2: rgba(54, 78, 199, 0.5);
+  --inative-brand3: rgba(54, 78, 199, 0.2);
+
+  --grey100: #212529;
+  --grey200: #343A40;
+  --grey300: #495057;
+  --grey400: #868E96;
+  --grey500: #ADB5BD;
+  --grey600: #E9ECEF;
+  --grey700: #F1F3F5;
+  --grey800: #F8F9FA;
+  --grey900: #FCFEFF;
+
+  --alert100: #C73650;
+  --alert200: #DB3C58;
+  --alert-bgc: rgba(219, 60, 89, 0.1);
+
+  --sucess100: #087F5B;
+  --sucess-bgc: rgba(8, 127, 91, 0.1);
+
+  --radius-1: 0.25rem;
+
+  --radius-2: 0.5rem;
+
+
+  --f-weight0: 700;
+  --f-weight1: 600;
+  --f-weight2: 500;
+  --f-weight3: 400;
+
+  --f-size1: 2rem;
+  
+  --f-size2: 1.5rem;
+
+  --f-size3: 1.25rem;
+  
+  --f-size4: 1rem;
+  
+  --f-size5: 0.875rem;
+
+  --l-height1: 3rem;
+  
+  --l-height2: 2.25rem;
+  
+  --l-height3: 1.875rem;
+  
+  --l-height4: 1.5rem;
+  
+  --l-height5: 1.313rem;
+  
+
+
+  --gap200: 2rem;
+
+  --gap175: 1.75rem;
+  
+  --gap162: 1.625rem;
+  
+  --gap150: 1.5rem;
+
+  --gap125: 1.25rem;
+  
+  --gap100: 1rem;
+  
+  --gap075: 0.75rem;
+
+  --paddingInlineButton: 32px;
+
+  --container-1: 800px;
+  --container-2: 900px;
+
+  --rem025: 0.25rem;
+  
+  --rem050: 0.5rem;
+  
+  --rem062: 0.625rem;
+  
+  --rem075: 0.75rem;
+  
+  --rem087: 0.875rem;
+  
+  --rem093: 0.938rem;
+  
+  --rem100: 1rem;
+
+  --rem106: 1.063rem;
+  
+  --rem112: 1.125rem;
+  
+  --rem118: 1.188rem;
+
+  --rem125: 1.25rem;
+  
+  --rem131: 1.313rem;
+  
+  --rem137: 1.375rem;
+  
+  --rem150: 1.5rem;
+  
+  --rem156: 1.563rem;
+  
+  --rem162: 1.625rem;
+  
+  --rem168: 1.688rem;
+
+  --rem175: 1.75rem;
+  
+  --rem187: 1.875rem;
+  
+  --rem200: 2rem;
+  
+  --rem212: 2.125rem;
+  
+  --rem218: 2.188rem;
+  
+  --rem225: 2.25rem;
+
+  --rem237: 2.375rem;
+  
+  --rem250: 2.5rem;
+  
+  --rem262: 2.625rem;
+  
+  --rem275: 2.75rem;
+  
+  --rem287: 2.875rem;
+  
+  --rem300: 3rem;
+
+  --rem312: 3.125rem;
+
+  --rem325: 3.25rem;
+  
+
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: normal;
+  width: 100%;
+  min-height: 100%;
+}
+
+.container {
+  width: 800px;
+  max-width: 95%;
+  margin: 0 auto;
+}
